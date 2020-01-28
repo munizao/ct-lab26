@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Character = (props) => (
+const CharacterInfo = (props) => (
   <>
     <div>
       <span>STATUS</span><p>{props.status}</p>
@@ -21,7 +21,10 @@ const Character = (props) => (
   </>
 );
 
-Character.propTypes = {
+CharacterInfo.propTypes = {
+  name: PropTypes.string,
+  id: PropTypes.number,
+  
   status: PropTypes.string,
   species: PropTypes.string,
   gender: PropTypes.string,
@@ -29,4 +32,4 @@ Character.propTypes = {
   lastLocation: PropTypes.string,
 };
 
-export default Character;
+export default CharacterInfo;

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Character component renders Character 1`] = `
+exports[`CharacterInfo component renders CharacterInfo 1`] = `
 <Fragment>
   <div>
     <span>
