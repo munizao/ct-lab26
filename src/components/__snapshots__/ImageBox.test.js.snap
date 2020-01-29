@@ -1,18 +1,20 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ImageBox component renders ImageBox 1`] = `
-<div>
+<div
+  className="ImageBox"
+>
   <div
     className="card-image"
   >
     <img
-      alt="Gar\\\\'s Mytholog"
+      alt="Gar's Mytholog"
       src="https://rickandmortyapi.com/api/character/avatar/132.jpeg"
     />
   </div>
   <Title
     id="132"
-    name="Gar\\\\'s Mytholog"
+    name="Gar's Mytholog"
   />
 </div>
 `;

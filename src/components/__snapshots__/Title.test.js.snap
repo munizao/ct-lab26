@@ -1,11 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Title component renders Title 1`] = `
-<div>
+<div
+  className="Title"
+>
   <h2>
-    Gar\\'s Mytholog
+    Gar's Mytholog
   </h2>
-  <p>
+  <p
+    className="Description"
+  >
     id: 
     132
      -- created 2 years ago.
