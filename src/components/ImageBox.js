@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Main.css';
 import Title from './Title';
-import kittenImage from '../assets/kitten1.jpeg'
+import kittenImage from '../assets/kitten1.jpeg';
 
 const ImageBox = (props) => (
   <div className={styles.ImageBox}>
