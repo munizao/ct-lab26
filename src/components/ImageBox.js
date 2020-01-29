@@ -6,9 +6,7 @@ import kittenImage from '../assets/kitten1.jpeg';
 
 const ImageBox = (props) => (
   <div className={styles.ImageBox}>
-    <div className="card-image">
-      <img src={kittenImage} alt={props.name} />
-    </div>
+    <img src={kittenImage} alt={props.name} />
     <Title id={props.id} name={props.name}/>
   </div>
 );

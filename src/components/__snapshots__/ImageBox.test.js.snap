@@ -4,14 +4,10 @@ exports[`ImageBox component renders ImageBox 1`] = `
 <div
   className="ImageBox"
 >
-  <div
-    className="card-image"
-  >
-    <img
-      alt="Gar's Mytholog"
-      src="/path/image"
-    />
-  </div>
+  <img
+    alt="Gar's Mytholog"
+    src="/path/image"
+  />
   <Title
     id="132"
     name="Gar's Mytholog"
