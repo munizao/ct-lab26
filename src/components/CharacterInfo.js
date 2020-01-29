@@ -1,30 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import InfoLine from './InfoLine';
+
 
 const CharacterInfo = (props) => (
   <>
-    <div>
-      <span>STATUS</span><p>{props.status}</p>
-    </div>
-    <div>
-      <span>SPECIES</span><p>{props.species}</p>
-    </div>
-    <div>
-      <span>GENDER</span><p>{props.gender}</p>
-    </div>
-    <div>
-      <span>ORIGIN</span><p>{props.origin}</p>
-    </div>
-    <div>
-      <span>LAST LOCATION</span><p>{props.lastLocation}</p>
-    </div>
+    <InfoLine lineHead="STATUS" value={props.status}/>
+    <InfoLine lineHead="SPECIES" value={props.species}/>
+    <InfoLine lineHead="GENDER" value={props.gender}/>
+    <InfoLine lineHead="ORIGIN" value={props.origin}/>
+    <InfoLine lineHead="LAST LOCATION" value={props.lastLocation}/>
   </>
 );
 
 CharacterInfo.propTypes = {
-  name: PropTypes.string,
-  id: PropTypes.number,
-  
   status: PropTypes.string,
   species: PropTypes.string,
   gender: PropTypes.string,
