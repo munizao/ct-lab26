@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterInfo component renders CharacterInfo 1`] = `
+<div
+  className="CharacterInfo"
+>
+  <InfoLine
+    lineHead="STATUS"
+    value="Alive"
+  />
+  <InfoLine
+    lineHead="SPECIES"
+    value="Human"
+  />
+  <InfoLine
+    lineHead="GENDER"
+    value="Female"
+  />
+  <InfoLine
+    lineHead="ORIGIN"
+    value="Earth"
+  />
+  <InfoLine
+    lineHead="LAST LOCATION"
+    value="Mars"
+  />
+</div>
+`;

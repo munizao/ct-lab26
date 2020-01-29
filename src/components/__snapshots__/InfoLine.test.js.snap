@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InfoLine component renders InfoLine 1`] = `
+<div
+  className="InfoLine"
+>
+  <span>
+    STATUS
+  </span>
+  <p>
+    Alive
+  </p>
+</div>
+`;
