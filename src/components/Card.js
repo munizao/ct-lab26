@@ -1,10 +1,11 @@
 import React from 'react';
+import styles from './App.css';
 import PropTypes from 'prop-types';
 import ImageBox from './ImageBox';
 import CharacterInfo from './CharacterInfo';
 
 const Card = () => (
-  <div>
+  <div className={styles.Card} >
     <ImageBox id="132" name="Gar's Mytholog" />
     <CharacterInfo status="Alive" species="Human" gender="Female" origin="Earth" lastLocation="Mars"/>
   </div>
@@ -12,7 +13,7 @@ const Card = () => (
 
 Card.propTypes = {
   name: PropTypes.string,
-  id: PropTypes.number 
+  id: PropTypes.string 
 };
 
 export default Card;
