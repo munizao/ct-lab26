@@ -75,6 +75,18 @@
   }
 }
 
+.InfoLine {
+  display: flex;
+  -moz-box-pack: justify;
+  justify-content: space-between;
+  -moz-box-align: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 0.75rem 0px 0.375rem;
+  border-bottom: 1px solid
+rgb(68, 68, 68);
+}
+
 .Footer {
   overflow: hidden;
   padding: 1rem;
