@@ -1,12 +1,12 @@
 import React from 'react';
 import Header from './Header';
+import Main from './Main';
 import Footer from './Footer';
-import Card from './Card';
 
 const App = () => (
   <React.Fragment>
     <Header />
-    <Card />
+    <Main />
     <Footer />
   </React.Fragment>
 );
