@@ -9,7 +9,7 @@ exports[`ImageBox component renders ImageBox 1`] = `
   >
     <img
       alt="Gar's Mytholog"
-      src="https://rickandmortyapi.com/api/character/avatar/132.jpeg"
+      src="/path/image"
     />
   </div>
   <Title

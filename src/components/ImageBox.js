@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import styles from './App.css';
+import styles from './Main.css';
 import Title from './Title';
 import kittenImage from '../assets/kitten1.jpeg'
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './App.css';
+import styles from './Main.css';
 import PropTypes from 'prop-types';
 
 const Title = (props) => (
