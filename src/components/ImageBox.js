@@ -2,11 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './App.css';
 import Title from './Title';
+import kittenImage from '../assets/kitten1.jpeg'
 
 const ImageBox = (props) => (
   <div className={styles.ImageBox}>
     <div className="card-image">
-      <img src= {'https://rickandmortyapi.com/api/character/avatar/' + props.id + '.jpeg'} alt={props.name} />
+      <img src={kittenImage} alt={props.name} />
     </div>
     <Title id={props.id} name={props.name}/>
   </div>
