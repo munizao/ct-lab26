@@ -11,7 +11,7 @@ const Title = (props) => (
 
 Title.propTypes = {
   name: PropTypes.string,
-  id: PropTypes.number 
+  id: PropTypes.string 
 };
 
 export default Title;
